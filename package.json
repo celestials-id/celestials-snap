@@ -7,6 +7,9 @@
       "require": "./dist/bundle.js"
     }
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "mm-snap build",
     "publish": "npm publish -f",
