@@ -1,0 +1,36 @@
+{
+  "name": "@celestials-id/celestials-snap",
+  "version": "1.0.0",
+  "module": "dist/bundle.js",
+  "exports": {
+    ".": {
+      "require": "./dist/bundle.js"
+    }
+  },
+  "scripts": {
+    "build": "mm-snap build",
+    "publish": "npm publish -f",
+    "test": "vitest run"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@metamask/snaps-sdk": "6.4.0"
+  },
+  "devDependencies": {
+    "@metamask/snaps-cli": "6.3.2",
+    "tsup": "6.7.0",
+    "typescript": "5.2.2",
+    "vitest": "1.6.0"
+  },
+  "files": [
+    "dist",
+    "snap.manifest.json",
+    "changelogs.md",
+    "images",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/celestials-id/celestials-snap"
+  }
+}

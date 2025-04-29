@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "strict": true,
+    "declaration": true,
+    "target": "ES5",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "allowJs": false,
+    "skipLibCheck": true,
+    "outDir": "./dist",
+  },
+  "exclude": ["dist", "build", "node_modules"],
+  "include": ["src", "snap.config.ts"],
+}
