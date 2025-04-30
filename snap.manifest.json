@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "celestials.id resolver for Metamask",
   "proposedName": "Celestials",
   "repository": {
@@ -7,7 +7,7 @@
     "url": "https://github.com/celestials-id/celestials-snap"
   },
   "source": {
-    "shasum": "j1X8rmjoabiC6DSVTdJUmGSCn6To9XP0pgkAtcEimAA=",
+    "shasum": "tuYvWv5R7l92wTCu+AHp29nLbgwUCkx/KwsuIx9ERQ4=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",
@@ -22,7 +22,22 @@
   },
   "initialPermissions": {
     "endowment:name-lookup": {
-      "chains": ["eip155:1", "eip155:984122", "eip155:8453"]
+      "chains": [
+        "eip155:1",
+        "eip155:984122",
+        "eip155:8453",
+        "eip155:253368190",
+        "eip155:42161",
+        "eip155:56",
+        "eip155:80094",
+        "eip155:43114",
+        "eip155:146",
+        "eip155:137",
+        "eip155:1116",
+        "eip155:1329",
+        "eip155:130",
+        "eip155:143"
+      ]
     },
     "endowment:network-access": {}
   },
