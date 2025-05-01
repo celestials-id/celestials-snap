@@ -41,6 +41,6 @@
     },
     "endowment:network-access": {}
   },
-  "platformVersion": "6.4.0",
+  "platformVersion": "6.16.0",
   "manifestVersion": "0.1"
 }

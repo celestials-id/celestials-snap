@@ -17,7 +17,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@metamask/snaps-sdk": "6.4.0"
+    "@metamask/snaps-sdk": "6.16.0"
   },
   "devDependencies": {
     "@metamask/snaps-cli": "6.3.2",
