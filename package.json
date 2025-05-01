@@ -1,6 +1,6 @@
 {
   "name": "@celestials-id/celestials-snap",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "module": "dist/bundle.js",
   "exports": {
     ".": {
