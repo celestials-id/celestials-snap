@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "celestials.id resolver for Metamask",
   "proposedName": "Celestials",
   "repository": {
@@ -7,7 +7,7 @@
     "url": "https://github.com/celestials-id/celestials-snap"
   },
   "source": {
-    "shasum": "tuYvWv5R7l92wTCu+AHp29nLbgwUCkx/KwsuIx9ERQ4=",
+    "shasum": "eqJzfrja04/LPK8lI+7dAlEzAEB/d8DpxGPf2aOwUi0=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",
@@ -41,6 +41,6 @@
     },
     "endowment:network-access": {}
   },
-  "platformVersion": "6.4.0",
+  "platformVersion": "6.16.0",
   "manifestVersion": "0.1"
 }

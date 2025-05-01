@@ -1,6 +1,6 @@
 {
   "name": "@celestials-id/celestials-snap",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "module": "dist/bundle.js",
   "exports": {
     ".": {
@@ -17,7 +17,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@metamask/snaps-sdk": "6.4.0"
+    "@metamask/snaps-sdk": "6.16.0"
   },
   "devDependencies": {
     "@metamask/snaps-cli": "6.3.2",
