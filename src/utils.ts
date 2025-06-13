@@ -3,7 +3,7 @@ const BASE_API_URL = "https://api.celestials.id";
 export type ResolverResponse = {
   addresses: ({
     address: string;
-    status: "NOT_VERIFIED" | "VERIFIED";
+    status: "NOT_VERIFIED" | "VERIFIED" | "PRIMARY";
   } | null)[];
 };
 
@@ -35,9 +35,14 @@ export async function resolveCelestial(
 
   const data = (await response.json()) as ResolverResponse;
 
+  const primaryAddress = data.addresses.find(
+    (address) => address?.status === "PRIMARY"
+  );
   const firstAddress = data.addresses.at(0);
-  if (!firstAddress) return null;
 
+  if (primaryAddress) return primaryAddress.address;
+
+  if (!firstAddress) return null;
   if (firstAddress.status !== "VERIFIED") return null;
 
   return firstAddress.address;
